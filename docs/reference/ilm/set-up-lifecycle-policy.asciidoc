@@ -24,7 +24,7 @@ bootstrap an initial index.
 
 You use the <<ilm-put-lifecycle,create policy API>> to define a new lifecycle policy. 
 For example, the following request creates `my_policy`, a
-policy that defines a hot and and delete phase.
+policy that defines a hot and delete phase.
 When the index reaches 25GB, it rolls over directly to the delete phase.
 The index is deleted 30 days after rollover.
 
